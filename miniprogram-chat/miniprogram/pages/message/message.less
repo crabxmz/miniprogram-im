@@ -1,0 +1,89 @@
+.info-area {
+  overflow: scroll;
+}
+
+.user-text-input-container {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0;
+  margin-top: 50rpx;
+  padding: 30rpx;
+  background: white;
+  border-radius: 30rpx;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Grey shadow */
+}
+
+.user-text-input-button {
+  background-color: rgb(224, 220, 220);
+  border-radius: 30rpx;
+  padding: 20rpx 40rpx;
+  height: fit-content;
+  margin-left: 20rpx;
+}
+
+.user-text-input {
+  flex: 1;
+  // background-color: rgb(226, 221, 221);
+  overflow-y: scroll;
+  height: 4em;
+}
+
+.message-list {
+   display: flex;
+  flex-direction: column;
+}
+
+.message-container-left {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.message-container-right {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-self: flex-end;
+  width: 100%;
+  /* Adjust background color for right messages */
+}
+
+.message-text {
+  padding: 20rpx;
+  border-radius: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.message-container-right>.message-text {
+  background-color: #e2f8e6;
+  align-self: flex-end;
+  max-width: 50%;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+.message-container-left>.message-text {
+  background-color: #f0f0f0;
+  align-self: flex-start;
+  max-width: 50%;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+.message-container-right>.message-ts {
+  align-self: flex-end;
+}
+
+
+.message-ts {
+  color: rgb(230, 225, 225);
+  font-size: small;
+}
+
+.message-page-container{
+  margin: 30rpx;
+  background-color: white;
+}

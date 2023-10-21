@@ -1,0 +1,10 @@
+<view class="people_container">
+  <view wx:for="{{peopleList}}" wx:key="index" bind:tap="onTap" data-index="{{index}}">
+    <view class="divline" />
+    <view class="people-item">
+      <view class="people_avatar" />
+      <view class="people_peername"> {{item.peer}}</view>
+    </view>
+  </view>
+  <view class="divline" />
+</view>

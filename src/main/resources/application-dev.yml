@@ -1,0 +1,18 @@
+# 服务器端口
+server:
+  port: 8888
+
+# JDBC 配置
+spring:
+  datasource:
+    username: yourname
+    password: yourpass
+    url: jdbc:mysql://localhost:3306/business_system?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialSize: 10
+    minIdle: 10
+    maxActive: 100
+    maxWait: 60000
+
+  wx.appid: your_wx_appid
+  wx.appsecret: your_wx_appsecret

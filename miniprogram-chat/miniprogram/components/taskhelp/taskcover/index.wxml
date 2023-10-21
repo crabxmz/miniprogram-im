@@ -1,0 +1,34 @@
+<view class="taskcover-container">
+  <view class="leftside-container">
+    <image class="taskcover-avatar" src="https://static.wikia.nocookie.net/fortnite/images/8/83/Black_Hole_-_Back_Bling_-_Fortnite.png"></image>
+  </view>
+
+  <view class="rightside-container">
+    <view class="taskcover-title">任务标题</view>
+    <view class="taskcover-userinfo">用户昵称 | 2023-10-14 06:49:56</view>
+    <view class="taskcover-status">需要帮助</view>
+
+    <view class="taskcover-ddl">截止日期 2023-10-14 06:49:56</view>
+    <view class="taskcover-content">基本flow
+      用户注册和身份验证：
+      用户需要注册一个账户，并提供必要的个人信息。
+      平台对用户进行身份验证，以确保用户的真实性和安全性。
+      e.g. 绑定微信号
+      互助任务发布：
+      用户可以将自己的任务发布，包括服务内容、佣金等。
+      用户需要提供详细的任务描述、价格和其他相关信息。
+      广场搜索和浏览：
+      用户可以通过关键词搜索或浏览平台上的任务列表。
+      平台可以提供筛选和排序功能，以帮助用户找到符合其需求的任务。
+      交易协商和沟通：
+      买家可以与卖家进行交流，讨论细节和交易条件。
+      平台可以提供内部的消息系统或聊天工具，以便买卖双方进行交流。
+    </view>
+    <view class="bottomcontainer">
+      <view class="taskcover-price">悬赏100rmb</view>
+    </view>
+
+
+  </view>
+
+</view>

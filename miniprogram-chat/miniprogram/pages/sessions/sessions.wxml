@@ -1,0 +1,10 @@
+<view class="session_container">
+  <view wx:for="{{sessionList}}" wx:key="index" bind:tap="onTap" data-index="{{index}}">
+    <view class="divline" />
+    <view class="session-item">
+      <view class="session_avatar" />
+      <view class="session_peername">session with {{item.peer}}</view>
+    </view>
+  </view>
+  <view class="divline" />
+</view>

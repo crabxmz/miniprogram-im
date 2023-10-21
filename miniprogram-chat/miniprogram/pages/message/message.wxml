@@ -1,0 +1,13 @@
+<view class="message-page-container">
+<view class="message-list">
+<view wx:for="{{msgList}}" wx:key="index" class="{{item.sender===myid?'message-container-right':'message-container-left'}}">
+  <view class="message-ts"> {{item.ts}} </view>
+  <view  class="message-text"> {{item.content}} </view>
+</view>
+</view>
+<view class="user-text-input-container">
+  <textarea name="message" placeholder="输入消息.." bindinput="handleUserinput"  value="{{userinput}}" class="user-text-input"/>
+   <view bind:tap="onSend" class="user-text-input-button">send</view>
+</view>
+
+</view>
